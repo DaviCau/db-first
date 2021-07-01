@@ -1,0 +1,9 @@
+id - intero - MEDIUMINT - PRIMARY KEY - AUTO_INCREMENT
+casa-automobilistica - stringa - VARCHAR(30) - NOTNULL
+modello - stringa - VARCHAR(30) - NOTNULL
+posti - intero - TINYINT - NOTNULL
+n-portiere - intero - TINYINT - NOTNULL
+colore - stringa - VARCHAR(30) - NULL
+anno - data - YEAR - NOTNULL
+km-percorsi - float - FLOAT(7, 1) - NOTNULL
+prezzo - float - FLOAT(8, 2) - NULL
